@@ -1,0 +1,47 @@
+.t-container{
+    text-align: center;
+}
+
+.t-container h3 p{
+    font-size: 50px;
+}
+.testimonials-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size:larger;
+  }
+  
+  .africom,
+  .Kra {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .africom {
+    border-right: 5px solid #ccc;
+    margin-right: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonials-container {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      flex-direction: column;
+    }
+  
+    .africom,
+    .Kra {
+      border-right: none;
+      margin-right: 0;
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  

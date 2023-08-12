@@ -1,25 +1,80 @@
 .skills-container {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the content horizontally */
-    text-align: center; /* Center the text horizontally */
-  
-    /* Add more styles if needed */
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-image: none;
   }
   
-  .skill-mini-divs {
-    margin-bottom: 20px; /* Add some space between the sections */
+  .image-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
   }
   
-  .skills-icons {
-    display: flex;
-    justify-content: center; /* Center the icons horizontally */
-    gap: 10px; /* Add some spacing between the icons */
+  .text-container {
+    flex: 1 1 auto;
   }
   
-  .icon {
-    font-size: 40px; /* Enlarge the icon size */
+  .image-background {
+    width: 100%; /* Full width of container */
+    padding-top: 100%; /* Maintain aspect ratio */
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
   }
   
-  /* Add more styles for the icons if needed */
+  .image-background::before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* Maintain aspect ratio for pseudo-element */
+  }
+  
+  .image-background img {
+    position: absolute;
+    max-width: 30%; /* Make the image fill the container */
+    max-height: 30%; /* Make the image fill the container */
+    object-fit: ;
+    border-radius: 50%;
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .skills-container {
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+  
+    .image-container {
+      margin-bottom: 20px;
+    }
+  
+    .image-background {
+      display: none;
+    }
+  }
+  
+  
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .skills-container {
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+  
+    .image-container {
+      margin-bottom: 20px;
+    }
+  
+    .image-background {
+      background-image: none;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+  }
   

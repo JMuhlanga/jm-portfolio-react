@@ -1,11 +1,15 @@
 import React from 'react'
+import '../Style/Testimonials.css';
 
 const Testimonials = () => {
   return (
-    <div>
-      <h3>Testimonials</h3>
+  
+  <div className='t-container'>
+    <h3>Testimonials</h3>
       <p>Below are some testimonies from Jose's past work experience</p>
-      <div class="africom">
+    <div className="testimonials-container">
+      
+      <div className="africom">
         <p>
           "..Wholeheartedly endorse Jose for employment in your organisation.
           In my capacity as CEO at Africom Media Limited, I have had the pleasure of working with Jose and have been consistently been impressed with the dedication, competence, desire to learn and professional attitude....In their role, He exhibited exceptional aptitude in managing tasks and responsibilities.
@@ -16,7 +20,7 @@ const Testimonials = () => {
         </p>
         <p><b>Julius Kundu </b><em>CEO</em>- Africom Media Limited</p>
       </div>
-      <div class="Kra">
+      <div className="Kra">
         <p>
             "Jose proved himself as a diligent learner and a team player. He displayed a lot of initiative in all the duties delegated to Him.
             He is a Good Communicator, Well Organised and can Work independetly with minimal supervision.
@@ -26,6 +30,9 @@ const Testimonials = () => {
         <p><b>Beatrice Sapuro </b><em>Deputy Commissioner - Human Resources </em> - Kenya Revenue Authority</p>
       </div>
     </div>
+
+  </div>
+    
   )
 }
 

@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import '../Style/Contact.css';
 
 const Contact = () => {
   return (
     <div id='contact-section'>
       <h3>Want to Hire Me ? :)</h3>
+      <div className="contact-container">
       <div className='mycontacts'>
         <h4>My Contacts</h4>
       
@@ -24,21 +26,23 @@ const Contact = () => {
           
         </form>
       </div>
+      </div>
+      
+      
 
-      <div classNames="icons">
+      <div className="contact-icons">
         <a href='https://www.linkedin.com/in/josekmuhlanga'>
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-linkedin"></i>
         </a>
         <a href='https://www.github.com/JMuhlanga'>
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
         <a href='https://www.twitter.com/MuhlangaJose'>
-          <i class="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-twitter"></i>
         </a>
         <a href='https://www.instagram.com/jnr_muhlanga/'>
-          <i class="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-instagram"></i>
         </a>
-
       </div>
 
     </div>

@@ -5,7 +5,7 @@ const About = () => {
     <div>
       <h1>Hi!!</h1>
 
-      <h3>I'm Jose Kupeka Muhlanga </h3>
+      <h3>I'm José Kupeka Muhlanga </h3>
 
       <p>
         Passionate Full Stack developer skilled in the entire Software Development Life
@@ -15,7 +15,7 @@ const About = () => {
         strategic & logical thinking, and innovative problem-solving abilities to meet
         organisational needs.
       </p>
-      
+
     </div>
   )
 }

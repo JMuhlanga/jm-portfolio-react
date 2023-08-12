@@ -10,10 +10,7 @@ const Contact = () => {
         <p><b>Email: </b>muhlangakupeka@outlook.com</p>
         <p><b>Phone1: </b>+254735219317</p>
         <p><b>Phone2: </b>+254113771641</p>
-        <p><b>LinkedIn: </b>www.linkedin.com/in/josekmuhlanga</p>
-        <p><b>Github: </b>www.github.com/JMuhlanga</p>
-        <p><b>Twitter: </b>www.twitter.com/MuhlangaJose</p>
-        <p><b>Instagram: </b>https://www.instagram.com/jnr_muhlanga/</p>
+        
 
       </div>
       <div className='msg-form'>
@@ -26,6 +23,22 @@ const Contact = () => {
           <button type="submit" className='send-msg'>Send Message</button>
           
         </form>
+      </div>
+
+      <div classNames="icons">
+        <a href='https://www.linkedin.com/in/josekmuhlanga'>
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href='https://www.github.com/JMuhlanga'>
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href='https://www.twitter.com/MuhlangaJose'>
+          <i className='fab fa-twitter'></i>
+        </a>
+        <a href='https://www.instagram.com/jnr_muhlanga/'>
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
       </div>
 
     </div>

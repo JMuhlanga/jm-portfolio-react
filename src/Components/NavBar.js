@@ -6,7 +6,7 @@ const NavBar = () => {
       <ul>
         {/* Home link or logo click */}
         <li>
-          <p>Home</p>
+          <p>José Kupeka Muhlanga</p>
         </li>
 
         {/* About Section Link */}

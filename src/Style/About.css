@@ -2,6 +2,12 @@
     .about-container {
         display: flex;
         align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left:250px;
+        margin-right:250px;
+        background-image: none;
     }
     
     .image-container {
@@ -18,6 +24,7 @@
         .about-container {
         flex-direction: column; /* Stack elements vertically on mobile */
         align-items: center;
+        margin:20px;
         }
     
         .image-container {

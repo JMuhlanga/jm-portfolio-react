@@ -1,34 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react';
+import '../Style/NavBar.css';
 
 const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <nav>
-      <ul>
-        {/* Home link or logo click */}
-        <li>
-          <p>José Kupeka Muhlanga</p>
-        </li>
+    <nav className="navbar">
+      <div className="left">
+        <p>José Kupeka Muhlanga</p>
+      </div>
 
-        {/* About Section Link */}
-        <li>
+      <div className={`right ${menuOpen ? 'active' : ''}`}>
         <a href='#about-section'>About</a>
-        </li>
-
-        {/* Projects section Link */}
-        <li>
         <a href='#projects-section'>Projects</a>
-        </li>
-
-
-        {/* Contact section link */}
-        <li>
         <a href='#contact-me'>Contact-Me</a>
-        </li>
+      </div>
 
-
-      </ul>
+      <div className={`menu-icon ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}></div>
     </nav>
-  )
+  );
 }
 
 export default NavBar;

@@ -1,0 +1,33 @@
+/* Desktop Styles */
+.about-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 0 0 auto; /* Don't grow or shrink */
+    margin-right: 20px; /* Adjust spacing between image and text */
+  }
+  
+  .text-container {
+    flex: 1 1 auto; /* Allow text container to grow and shrink */
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column; /* Stack elements vertically on mobile */
+      align-items: center;
+    }
+  
+    .image-container {
+      margin-bottom: 20px; /* Adjust spacing between image and text */
+    }
+  
+    .image-container img {
+      width: 150px; /* Adjust image size for mobile */
+      height: 150px;
+      border-radius: 50%; /* Make the image circular */
+    }
+  }
+  

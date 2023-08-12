@@ -33,7 +33,7 @@ const Contact = () => {
           <i class="fa-brands fa-github"></i>
         </a>
         <a href='https://www.twitter.com/MuhlangaJose'>
-          <i className='fab fa-twitter'></i>
+          <i class="fa-brands fa-twitter"></i>
         </a>
         <a href='https://www.instagram.com/jnr_muhlanga/'>
           <i class="fa-brands fa-instagram"></i>

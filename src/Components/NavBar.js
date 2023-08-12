@@ -14,13 +14,13 @@ const NavBar = () => {
         <p>José Kupeka Muhlanga</p>
       </div>
 
+      <div className={`menu-icon ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}></div>
+
       <div className={`right ${menuOpen ? 'active' : ''}`}>
         <a href='#about-section'>About</a>
         <a href='#projects-section'>Projects</a>
         <a href='#contact-me'>Contact-Me</a>
       </div>
-
-      <div className={`menu-icon ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}></div>
     </nav>
   );
 }

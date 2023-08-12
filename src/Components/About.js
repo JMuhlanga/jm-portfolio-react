@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id="about-section" className="about-container">
       <div className="image-container">
-        <img src="../Images/jose-img.jpg" alt="José Kupeka Muhlanga" />
+        <img src="https://avatars.githubusercontent.com/u/109970776?v=4" alt="José Kupeka Muhlanga" />
 
       </div>
       <div className="text-container">

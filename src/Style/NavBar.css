@@ -17,6 +17,11 @@
     display: flex;
     gap: 20px;
   }
+
+  .right a {
+    color: turquoise;
+    text-decoration: none; /* Remove underline from links */
+  }
   
   /* Add media query for mobile devices */
   @media (max-width: 768px) {

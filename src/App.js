@@ -10,13 +10,18 @@ import Contact from './Components/Contact';
 function App() {
   return (
     <main>
-      <NavBar />      
-      <About />
-      <Skills />
-      <Projects />
-      <Testimonials />
-      <Contact />
       
+      <div className="app-container">
+
+        <NavBar />      
+        <About />
+        <Skills />
+        <Projects />
+        <Testimonials />
+        <Contact />
+
+      </div> 
+
     </main>
   );
 }

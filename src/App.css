@@ -1,7 +1,10 @@
-body{
+.app-container {
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-family: 'Handlee', cursive;
   font-size: large;
-  background-color: turquoise;
   color: crimson;
+
+
+  background-color: turquoise;
 }
+

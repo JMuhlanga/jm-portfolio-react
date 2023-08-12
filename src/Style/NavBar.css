@@ -20,14 +20,14 @@
 
   .right a {
     color: turquoise;
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none;
   }
   
-  /* Add media query for mobile devices */
+
   @media (max-width: 768px) {
     .navbar {
-      flex-direction: row; /* Maintain horizontal layout */
-      justify-content: space-between; /* Align items to left and right edges */
+      flex-direction: row;
+      justify-content: space-between;
       padding: 10px;
     }
   
@@ -38,7 +38,7 @@
     }
   
     .menu-icon:before {
-      content: "\2630"; /* Hamburger icon */
+      content: "\2630";
       font-size: 24px;
     }
   
@@ -47,11 +47,11 @@
       flex-direction: column;
       gap: 10px;
       position: absolute;
-      top: 60px; /* Adjust this value to position the dropdown below the icon */
-      right: 0; /* Align the dropdown to the right */
-      background-color: crimson; /* Match the background color of the navbar */
+      top: 60px; 
+      right: 0; 
+      background-color: crimson; 
       padding: 10px;
-      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); 
     }
   
     .right.active {
